@@ -6,11 +6,6 @@ require('dotenv').config();
 
 const app = express();
 
-// ****************** require the necessary npm package here: ******************
-// ... your code here
-
-// *****************************************************************************
-
 app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
 
